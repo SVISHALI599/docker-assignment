@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR /app/webapp
+WORKDIR /home/ec2-user
 USER root
 COPY . .
 RUN npm install
